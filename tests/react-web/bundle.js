@@ -53979,7 +53979,8 @@
 	  }, {
 	    key: 'profileEnd',
 	    value: function profileEnd() {
-	      if (_lb.LoopBackConfig.debuggable()) console.profileEnd();
+	        // Deprecated
+	      // if (_lb.LoopBackConfig.debuggable()) console.profileEnd();
 	    }
 	  }, {
 	    key: 'time',
